@@ -1,13 +1,6 @@
-import '@/styles/global.css'
-import { Analytics } from '@vercel/analytics/react'
+import 'focus-visible'
+import '@/styles/tailwind.css'
 
-function MyApp({ Component, pageProps }) {
-  return (
-    <>
-      <Component {...pageProps} />
-      <Analytics />
-    </>
-  )
+export default function App({ Component, pageProps }) {
+  return <Component {...pageProps} />
 }
-
-export default MyApp

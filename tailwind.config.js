@@ -1,45 +1,37 @@
+const defaultTheme = require('tailwindcss/defaultTheme')
+
+/** @type {import('tailwindcss').Config} */
 module.exports = {
-  darkMode: 'class',
-  content: ['./src/components/**/*.{ts,tsx}', './src/pages/**/*.{ts,tsx}'],
+  content: ['./src/**/*.{js,jsx}'],
   theme: {
+    fontSize: {
+      xs: ['0.75rem', { lineHeight: '1rem' }],
+      sm: ['0.875rem', { lineHeight: '1.5rem' }],
+      base: ['1rem', { lineHeight: '1.5rem' }],
+      lg: ['1.125rem', { lineHeight: '2rem' }],
+      xl: ['1.25rem', { lineHeight: '2rem' }],
+      '2xl': ['1.5rem', { lineHeight: '2.5rem' }],
+      '3xl': ['2rem', { lineHeight: '2.5rem' }],
+      '4xl': ['2.5rem', { lineHeight: '3rem' }],
+      '5xl': ['3rem', { lineHeight: '3.5rem' }],
+      '6xl': ['4rem', { lineHeight: '1' }],
+      '7xl': ['5rem', { lineHeight: '1' }],
+      '8xl': ['6rem', { lineHeight: '1' }],
+      '9xl': ['8rem', { lineHeight: '1' }],
+    },
     extend: {
+      borderRadius: {
+        '4xl': '2rem',
+        '5xl': '2.5rem',
+      },
       fontFamily: {
-        poppins: ["'Poppins'", 'sans-serif'],
-        merri: ["'Merriweather'", 'serif'],
-        open: ["'Open Sans'", 'sans-serif'],
+        sans: ['Inter', ...defaultTheme.fontFamily.sans],
+        display: ['DM Sans', ...defaultTheme.fontFamily.sans],
       },
-      keyframes: {
-        movex: {
-          '0%': { transform: 'translateX(0)' },
-          '12.5%': { transform: 'translateX(15px)' },
-          '25%': { transform: 'translateX(30px)' },
-          '37.5%': { transform: 'translateX(15px)' },
-          '50%': { transform: 'translateX(0px)' },
-          '62.5%': { transform: 'translateX(-15px)' },
-          '75%': { transform: 'translateX(-30px)' },
-          '87.5%': { transform: 'translateX(-15px)' },
-          '100%': { transform: 'translateX(0)' },
-        },
-        movey: {
-          '0%': { transform: 'translateY(0)' },
-          '12.5%': { transform: 'translateY(15px)' },
-          '25%': { transform: 'translateY(30px)' },
-          '37.5%': { transform: 'translateY(15px)' },
-          '50%': { transform: 'translateY(0px)' },
-          '62.5%': { transform: 'translateY(-15px)' },
-          '75%': { transform: 'translateY(-30px)' },
-          '87.5%': { transform: 'translateY(-15px)' },
-          '100%': { transform: 'translateY(0)' },
-        },
-      },
-      animation: {
-        'move-x': 'movex 20s 2s linear infinite ',
-        'move-y': 'movey 24s linear infinite',
+      maxWidth: {
+        '2xl': '40rem',
       },
     },
   },
-  plugins: [
-    require('@tailwindcss/line-clamp'),
-    require('@tailwindcss/typography'),
-  ],
+  plugins: [],
 }
