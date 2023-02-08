@@ -14,12 +14,12 @@ export function Hero() {
           <div className="mt-6 space-y-6 font-display text-2xl tracking-tight text-white">
             <p>
               Unlock is a civic tech summit showcasing cutting-edge campaigns
-              and featuring expert masterclasses that'll reboot your mindset and
-              inspire you to upgrade your civic projects. Think new media &
-              activism, online privacy & security, smart cities & urban
-              development, ecological crisis & green tech, monetisation &
-              community-building, technologies for transparency & investigative
-              journalism and much more!
+              and featuring expert masterclasses that&apos;ll reboot your
+              mindset and inspire you to upgrade your civic projects. Think new
+              media &amp; activism, online privacy &amp; security, smart cities
+              &amp; urban development, ecological crisis &amp; green tech,
+              monetisation &amp; community-building, technologies for
+              transparency &amp; investigative journalism and much more!
             </p>
             <p>
               Apply for a chance to join us and 200+ leading campaigners,
