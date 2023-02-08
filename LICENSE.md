@@ -1,0 +1,3 @@
+# himynameishonza.com License
+
+MIT
