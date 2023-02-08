@@ -27,8 +27,13 @@ export function Hero() {
             </p>
           </div>
           <Button href="#" className="mt-10 w-full sm:hidden">
-            Get your tickets
+            Registration
           </Button>
+          <p className="py-4 text-center text-base text-cyan-600 sm:text-left">
+            We welcome applicants from Armenia, Azerbaijan, Belarus, Georgia,
+            Kazakhstan, Kyrgyzstan, Moldova, Russia, Tajikistan, Turkmenistan,
+            Ukraine, and Uzbekistan.
+          </p>
           <dl className="mt-10 grid grid-cols-2 gap-y-6 gap-x-10 sm:mt-16 sm:gap-y-10 sm:gap-x-16 sm:text-center lg:auto-cols-auto lg:grid-flow-col lg:grid-cols-none lg:justify-start lg:text-left">
             {[
               ['Speakers', '10'],
