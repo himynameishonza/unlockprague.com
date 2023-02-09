@@ -7,11 +7,11 @@ export function Hero() {
   return (
     <div className="relative pt-10 pb-20 sm:py-24">
       <Container className="relative">
-        <div className="mx-auto max-w-2xl lg:max-w-4xl lg:px-12">
+        <div className="mx-auto max-w-2xl px-4 lg:max-w-4xl lg:px-12">
           <h1 className="font-display text-4xl font-bold tracking-tighter text-[#85EBD9] sm:text-6xl">
             Welcome to Unlock 2023
           </h1>
-          <div className="mt-6 space-y-6 font-display text-2xl tracking-tight text-white">
+          <div className="mt-6 space-y-6 font-display text-xl tracking-tight text-white sm:text-2xl">
             <p>
               Unlock is a civic tech summit showcasing cutting-edge campaigns
               and featuring expert masterclasses that&apos;ll reboot your
