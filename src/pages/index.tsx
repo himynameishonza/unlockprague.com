@@ -17,6 +17,7 @@ export default function Home() {
           content="Unlock is a civic tech summit showcasing cutting-edge campaigns and featuring expert masterclasses that'll reboot your mindset and inspire you to upgrade your civic projects."
         />
         <meta name="pinterest" content="nopin" />
+        <meta name="robots" content="noindex, nofollow" />
       </Head>
       <Header />
       <main>
