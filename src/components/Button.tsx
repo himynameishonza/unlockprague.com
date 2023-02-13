@@ -12,7 +12,7 @@ export function Button({
   children: ReactNode
 }) {
   className = clsx(
-    'inline-flex justify-center rounded bg-[#85EBD9] p-4 text-base font-semibold text-black hover:bg-cyan-700 hover:text-white focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-cyan-500 active:text-white/70 transition-all',
+    'inline-flex justify-center rounded bg-rose-500 p-4 text-base text-white font-semibold text-black hover:bg-rose-600 transition-all',
     className
   )
 

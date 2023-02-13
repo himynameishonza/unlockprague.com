@@ -224,10 +224,10 @@ function ScheduleTabbed() {
 function DaySummary({ day }) {
   return (
     <>
-      <h3 className="text-2xl font-semibold tracking-tight text-cyan-900">
+      <h3 className="text-2xl font-semibold tracking-tight text-rose-500">
         <time dateTime={day.dateTime}>{day.date}</time>
       </h3>
-      <p className="mt-1.5 text-base tracking-tight text-cyan-900">
+      <p className="mt-1.5 text-base tracking-tight text-slate-700">
         {day.summary}
       </p>
     </>
@@ -240,7 +240,7 @@ function TimeSlots({ day, className }) {
       role="list"
       className={clsx(
         className,
-        'space-y-8 bg-white/90 py-14 px-10 text-center shadow-xl shadow-cyan-900/5 backdrop-blur'
+        'space-y-8 bg-white/90 py-14 px-10 text-center shadow-xl shadow-rose-900/5 backdrop-blur'
       )}
     >
       {day.timeSlots.map((timeSlot, timeSlotIndex) => (
@@ -251,11 +251,11 @@ function TimeSlots({ day, className }) {
           {timeSlotIndex > 0 && (
             <div className="mx-auto mb-8 h-px w-48 bg-indigo-500/10" />
           )}
-          <h4 className="text-lg font-semibold tracking-tight text-cyan-900">
+          <h4 className="text-lg font-semibold tracking-tight text-slate-900">
             {timeSlot.name}
           </h4>
           {timeSlot.description && (
-            <p className="mt-1 tracking-tight text-cyan-900">
+            <p className="mt-1 tracking-tight text-slate-400">
               {timeSlot.description}
             </p>
           )}
@@ -297,11 +297,11 @@ export function Schedule() {
     >
       <Container className="relative z-10">
         <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-4xl lg:pr-24">
-          <h2 className="font-display text-4xl font-medium tracking-tighter text-cyan-600 sm:text-5xl">
+          <h2 className="text-rose-1600 font-display text-4xl font-medium tracking-tighter sm:text-5xl">
             Our three day schedule is jam-packed with brilliant, creative, evil
             geniuses.
           </h2>
-          <p className="mt-4 font-display text-2xl tracking-tight text-cyan-900">
+          <p className="mt-4 font-display text-2xl tracking-tight text-slate-600">
             The worst people in our industry giving the best talks you’ve ever
             seen. Nothing will be recorded and every attendee has to sign an NDA
             to watch the talks.
@@ -309,7 +309,7 @@ export function Schedule() {
         </div>
       </Container>
       <div className="relative mt-14 sm:mt-24">
-        <div className="absolute inset-x-0 -top-40 -bottom-32 overflow-hidden bg-[#85EBD9] bg-opacity-10">
+        <div className="absolute inset-x-0 -top-40 -bottom-32 overflow-hidden bg-slate-100">
           <div className="absolute inset-x-0 top-0 h-40 bg-gradient-to-b from-white" />
           <div className="absolute inset-x-0 bottom-0 h-40 bg-gradient-to-t from-white" />
         </div>

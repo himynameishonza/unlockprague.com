@@ -22,7 +22,7 @@ export function Newsletter() {
   return (
     <section id="newsletter" aria-label="Newsletter" className="bg-white">
       <Container>
-        <div className="relative -mx-4 overflow-hidden bg-[#85EBD9] bg-opacity-40 py-20 px-4 sm:-mx-6 sm:px-6 md:mx-0 md:rounded-5xl md:px-16 xl:px-24 xl:py-36">
+        <div className="relative -mx-4 overflow-hidden bg-rose-100 bg-opacity-40 py-20 px-4 sm:-mx-6 sm:px-6 md:mx-0 md:rounded-lg md:px-16 xl:px-24 xl:py-24">
           <div className="relative mx-auto grid max-w-2xl grid-cols-1 gap-x-32 gap-y-14 xl:max-w-none xl:grid-cols-2">
             <div>
               <p className="font-display text-4xl font-medium tracking-tighter text-cyan-900 sm:text-5xl">
