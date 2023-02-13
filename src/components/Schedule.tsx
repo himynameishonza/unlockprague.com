@@ -213,7 +213,7 @@ function ScheduleTabbed() {
             key={day.dateTime}
             className="[&:not(:focus-visible)]:focus:outline-none"
           >
-            <TimeSlots day={day} className={'bg-black'} />
+            <TimeSlots day={day} className={'bg-white'} />
           </Tab.Panel>
         ))}
       </Tab.Panels>
