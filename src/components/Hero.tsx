@@ -16,7 +16,7 @@ export function Hero() {
             <p>{dataHero.intro}</p>
             <p>{dataHero.paragraph}</p>
           </div>
-          <Button href="#" className="mt-10 w-full sm:hidden">
+          <Button href="#" className="mt-10 w-full text-white sm:hidden">
             {dataHero.registration}
           </Button>
           <p className="py-4 text-center text-base font-medium text-rose-600 sm:text-left">
