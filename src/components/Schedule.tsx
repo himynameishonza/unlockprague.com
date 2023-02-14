@@ -3,160 +3,8 @@ import { Tab } from '@headlessui/react'
 import clsx from 'clsx'
 
 import { Container } from '@/components/Container'
-
-const schedule = [
-  {
-    date: 'March 1',
-    dateTime: '2023-03-01',
-    summary:
-      'The first day of the conference is focused on dark patterns for ecommerce.',
-    timeSlots: [
-      {
-        name: 'Steven McHail',
-        description: 'Not so one-time payments',
-        start: '9:00AM',
-        end: '10:00AM',
-      },
-      {
-        name: 'Jaquelin Isch',
-        description: 'The finer print',
-        start: '10:00AM',
-        end: '11:00AM',
-      },
-      {
-        name: 'Dianne Guilianelli',
-        description: 'Post-purchase blackmail',
-        start: '11:00AM',
-        end: '12:00PM',
-      },
-      {
-        name: 'Lunch',
-        description: null,
-        start: '12:00PM',
-        end: '1:00PM',
-      },
-      {
-        name: 'Ronni Cantadore',
-        description: 'Buy or die',
-        start: '1:00PM',
-        end: '2:00PM',
-      },
-      {
-        name: 'Erhart Cockrin',
-        description: 'In-person cancellation',
-        start: '2:00PM',
-        end: '3:00PM',
-      },
-      {
-        name: 'Parker Johnson',
-        description: 'The pay/cancel switcheroo',
-        start: '3:00PM',
-        end: '4:00PM',
-      },
-    ],
-  },
-  {
-    date: 'March 2',
-    dateTime: '2023-03-02',
-    summary:
-      'Next we spend the day talking about deceiving people with technology.',
-    timeSlots: [
-      {
-        name: 'Damaris Kimura',
-        description: 'The invisible card reader',
-        start: '9:00AM',
-        end: '10:00AM',
-      },
-      {
-        name: 'Ibrahim Frasch',
-        description: 'Stealing fingerprints',
-        start: '10:00AM',
-        end: '11:00AM',
-      },
-      {
-        name: 'Cathlene Burrage',
-        description: 'Voting machines',
-        start: '11:00AM',
-        end: '12:00PM',
-      },
-      {
-        name: 'Lunch',
-        description: null,
-        start: '12:00PM',
-        end: '1:00PM',
-      },
-      {
-        name: 'Rinaldo Beynon',
-        description: 'Blackhat SEO that works',
-        start: '1:00PM',
-        end: '2:00PM',
-      },
-      {
-        name: 'Waylon Hyden',
-        description: 'Turning your audience into a botnet',
-        start: '2:00PM',
-        end: '3:00PM',
-      },
-      {
-        name: 'Giordano Sagucio',
-        description: 'Fly phishing',
-        start: '3:00PM',
-        end: '4:00PM',
-      },
-    ],
-  },
-  {
-    date: 'March 3',
-    dateTime: '2023-03-03',
-    summary:
-      'We close out the event previewing new techniques that are still in development.',
-    timeSlots: [
-      {
-        name: 'Andrew Greene',
-        description: 'Neuralink dark patterns',
-        start: '9:00AM',
-        end: '10:00AM',
-      },
-      {
-        name: 'Heather Terry',
-        description: 'DALL-E for passports',
-        start: '10:00AM',
-        end: '11:00AM',
-      },
-      {
-        name: 'Piers Wilkins',
-        description: 'Quantum password cracking',
-        start: '11:00AM',
-        end: '12:00PM',
-      },
-      {
-        name: 'Lunch',
-        description: null,
-        start: '12:00PM',
-        end: '1:00PM',
-      },
-      {
-        name: 'Gordon Sanderson',
-        description: 'SkyNet is coming',
-        start: '1:00PM',
-        end: '2:00PM',
-      },
-      {
-        name: 'Kimberly Parsons',
-        description: 'Dark patterns for the metaverse',
-        start: '2:00PM',
-        end: '3:00PM',
-      },
-      {
-        name: 'Richard Astley',
-        description: 'Knowing the game and playing it',
-        start: '3:00PM',
-        end: '4:00PM',
-      },
-    ],
-  },
-]
-
+import { dataSchedule } from '@/utils/data'
+import { AiFillCaretDown } from 'react-icons/ai'
 function ScheduleTabbed() {
   let [tabOrientation, setTabOrientation] = useState('horizontal')
 
@@ -181,15 +29,15 @@ function ScheduleTabbed() {
       className="mx-auto grid max-w-2xl grid-cols-1 gap-y-6 sm:grid-cols-2 lg:hidden"
       vertical={tabOrientation === 'vertical'}
     >
-      <Tab.List className="-mx-4 flex gap-x-4 gap-y-10 overflow-x-auto pl-4 pb-4 sm:mx-0 sm:flex-col sm:pb-0 sm:pl-0 sm:pr-8">
+      <Tab.List className="flex flex-col gap-x-4 gap-y-10 pb-4 pl-0 sm:mx-0 sm:pb-0 sm:pr-8">
         {/* @ts-ignore */}
         {({ selectedIndex }) =>
-          schedule.map((day, dayIndex) => (
+          dataSchedule.map((day, dayIndex) => (
             <div
               key={day.dateTime}
               className={clsx(
-                'relative w-3/4 flex-none pr-4 sm:w-auto sm:pr-0',
-                dayIndex !== selectedIndex && 'opacity-70'
+                'relative flex gap-4 rounded-md border border-slate-300 p-4 pr-4 sm:flex-none sm:border-none sm:pr-0',
+                dayIndex !== selectedIndex && 'hidden sm:block sm:opacity-40'
               )}
             >
               <DaySummary
@@ -203,12 +51,15 @@ function ScheduleTabbed() {
                   ),
                 }}
               />
+              <div className="flex items-center justify-center p-4 sm:hidden">
+                <AiFillCaretDown size={20} className="text-rose-500" />
+              </div>
             </div>
           ))
         }
       </Tab.List>
       <Tab.Panels>
-        {schedule.map((day) => (
+        {dataSchedule.map((day) => (
           <Tab.Panel
             key={day.dateTime}
             className="[&:not(:focus-visible)]:focus:outline-none"
@@ -223,14 +74,14 @@ function ScheduleTabbed() {
 
 function DaySummary({ day }) {
   return (
-    <>
-      <h3 className="text-2xl font-semibold tracking-tight text-rose-500">
+    <div>
+      <h3 className="whitespace-nowrap text-2xl font-semibold tracking-tight text-rose-500">
         <time dateTime={day.dateTime}>{day.date}</time>
       </h3>
       <p className="mt-1.5 text-base tracking-tight text-slate-700">
         {day.summary}
       </p>
-    </>
+    </div>
   )
 }
 
@@ -246,7 +97,7 @@ function TimeSlots({ day, className }) {
       {day.timeSlots.map((timeSlot, timeSlotIndex) => (
         <li
           key={timeSlot.start}
-          aria-label={`${timeSlot.name} talking about ${timeSlot.description} at ${timeSlot.start} - ${timeSlot.end} PST`}
+          aria-label={`${timeSlot.name} talking about ${timeSlot.description} at ${timeSlot.start} - ${timeSlot.end} CET`}
         >
           {timeSlotIndex > 0 && (
             <div className="mx-auto mb-8 h-px w-48 bg-indigo-500/10" />
@@ -267,7 +118,7 @@ function TimeSlots({ day, className }) {
             <time dateTime={`${day.dateTime}T${timeSlot.end}-08:00`}>
               {timeSlot.end}
             </time>{' '}
-            PST
+            CET
           </p>
         </li>
       ))}
@@ -278,7 +129,7 @@ function TimeSlots({ day, className }) {
 function ScheduleStatic() {
   return (
     <div className="hidden lg:grid lg:grid-cols-3 lg:gap-x-8">
-      {schedule.map((day) => (
+      {dataSchedule.map((day) => (
         <section key={day.dateTime}>
           <DaySummary day={day} />
           <TimeSlots day={day} className="mt-10" />

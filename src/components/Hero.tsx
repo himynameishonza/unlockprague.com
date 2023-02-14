@@ -2,14 +2,14 @@ import Image from 'next/image'
 
 import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
-import { dataHero } from './data'
+import { dataHero } from '@/utils/data'
 
 export function Hero() {
   return (
-    <div className="relative pt-10 pb-20 sm:py-24">
+    <div className="relative pb-20 pt-24 sm:py-24 lg:pt-10">
       <Container className="relative isolate z-20">
-        <div className="mx-auto max-w-2xl px-4 pt-32 lg:max-w-4xl lg:px-12 lg:pt-24">
-          <h1 className="font-display text-4xl font-bold tracking-tighter text-slate-800 sm:text-6xl">
+        <div className="mx-auto max-w-2xl px-4 pt-24 lg:max-w-4xl lg:px-12 lg:pt-32">
+          <h1 className="text-center font-display text-4xl font-bold tracking-tighter text-slate-800 sm:text-6xl lg:text-left">
             {dataHero.title}
           </h1>
           <div className="mt-6 space-y-6 font-display text-xl tracking-tight text-slate-600 sm:text-2xl">
