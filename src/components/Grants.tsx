@@ -109,7 +109,7 @@ export function Grants() {
             </p>
             <p className="mt-4 font-display text-xl tracking-tight text-slate-200 lg:text-2xl">
               If so, you could win a partnership travel grant to Unlock 2020,
-              taking place in Prague the 28-29 May 2020. Unlock is our civic
+              taking place in Prague the 25-26 May 2023. Unlock is our civic
               innovation summit, showcasing the best and brightest ideas in the
               world of civic tech from across Eastern Europe and Central Asia.
             </p>
