@@ -5,9 +5,9 @@ import { Container } from '@/components/Container'
 
 export function Hero() {
   return (
-    <div className="relative isolate pb-20 pt-36 sm:py-24 lg:pt-10">
+    <div className="relative isolate pt-40 pb-20 sm:py-24 lg:pt-10">
       <Container className="relative isolate z-20">
-        <div className="mx-auto max-w-2xl px-4 pt-12 sm:pt-32 lg:max-w-4xl lg:px-12">
+        <div className="mx-auto max-w-2xl px-4 pt-10 sm:pt-32 lg:max-w-4xl lg:px-12">
           <h1 className="hidden text-center font-display text-4xl font-bold tracking-tighter text-slate-800 sm:block lg:text-left lg:text-5xl">
             Welcome to Unlock 2023
           </h1>
