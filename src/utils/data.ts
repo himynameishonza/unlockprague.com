@@ -1,22 +1,7 @@
-export const dataHero = {
-  title: 'Welcome to Unlock 2023',
-  intro:
-    "Unlock is a civic tech summit showcasing cutting-edge campaigns and featuring expert masterclasses that'll reboot your mindset and inspire you to upgrade your civic projects. Think new media & activism, online privacy & security, smart cities & urban development, ecological crisis & green tech, monetisation &community-building, technologies for transparency & investigative journalism and much more!",
-  paragraph:
-    'Apply for a chance to join us and 200+ leading campaigners, activists, journalists, tech experts, marketers and entrepreneurs.',
-  registration: 'Registration',
-  applicants:
-    'We welcome applicants from Armenia, Azerbaijan, Belarus, Georgia, Kazakhstan, Kyrgyzstan, Moldova, Russia, Tajikistan, Turkmenistan, Ukraine, and Uzbekistan.',
-  speakers: 'Speakers',
-  attendance: 'People attending',
-  venue: 'Venue',
-  location: 'Location',
-}
-
 export const dataSchedule = [
   {
-    date: 'March 1',
-    dateTime: '2023-03-01',
+    date: 'May 25',
+    dateTime: '2023-05-25',
     summary:
       'The first day of the conference is focused on dark patterns for ecommerce.',
     timeSlots: [
@@ -65,8 +50,8 @@ export const dataSchedule = [
     ],
   },
   {
-    date: 'March 2',
-    dateTime: '2023-03-02',
+    date: 'May 26',
+    dateTime: '2023-05-26',
     summary:
       'Next we spend the day talking about deceiving people with technology.',
     timeSlots: [
@@ -114,123 +99,170 @@ export const dataSchedule = [
       },
     ],
   },
-  {
-    date: 'March 3',
-    dateTime: '2023-03-03',
-    summary:
-      'We close out the event previewing new techniques that are still in development.',
-    timeSlots: [
-      {
-        name: 'Andrew Greene',
-        description: 'Neuralink dark patterns',
-        start: '9:00AM',
-        end: '10:00AM',
-      },
-      {
-        name: 'Heather Terry',
-        description: 'DALL-E for passports',
-        start: '10:00AM',
-        end: '11:00AM',
-      },
-      {
-        name: 'Piers Wilkins',
-        description: 'Quantum password cracking',
-        start: '11:00AM',
-        end: '12:00PM',
-      },
-      {
-        name: 'Lunch',
-        description: null,
-        start: '12:00PM',
-        end: '1:00PM',
-      },
-      {
-        name: 'Gordon Sanderson',
-        description: 'SkyNet is coming',
-        start: '1:00PM',
-        end: '2:00PM',
-      },
-      {
-        name: 'Kimberly Parsons',
-        description: 'Dark patterns for the metaverse',
-        start: '2:00PM',
-        end: '3:00PM',
-      },
-      {
-        name: 'Richard Astley',
-        description: 'Knowing the game and playing it',
-        start: '3:00PM',
-        end: '4:00PM',
-      },
-    ],
-  },
 ]
 
 export const dataSpeakers = [
   {
-    name: 'Opening Day',
-    date: 'March 1',
-    dateTime: '2023-03-01',
     speakers: [
       {
-        name: 'Steven McHail',
-        role: 'Designer at Globex Corporation',
+        nameEN: 'Steven McHail',
+        roleEN: 'Designer at Globex Corporation',
+        nameORIGINAL: 'Steven McHail',
+        roleORIGINAL: 'Designer at Globex Corporation',
+        bioEN:
+          ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat beatae quisquam quibusdam eum autem dicta ratione.',
+        bioORIGINAL:
+          'Lorem Ipsum є псевдо- латинський текст використовується у веб - дизайні, типографіка, верстка, і друку замість англійської підкреслити елементи дизайну над змістом. Це також називається заповнювач ( або наповнювач) текст. Це зручний інструмент для макетів. Це допомагає намітити візуальні елементи в документ або презентацію, наприклад, друкарня, шрифт, або макет. Lorem Ipsum в основному частиною латинського тексту за класичною автор і філософа Цицерона. Це слова і букви були змінені додаванням або видаленням, так навмисно роблять його зміст безглуздо, це не є справжньою, правильно чи зрозумілою Латинської більше.',
         image: '/speakers/speaker-example.webp',
+        langSwitch: 'Հայերեն տարբերակ', // Armenian
       },
       {
-        name: 'Jaquelin Isch',
-        role: 'UX Design at InGen',
+        nameEN: 'Steven McHail',
+        roleEN: 'Designer at Globex Corporation',
+        nameORIGINAL: 'Steven McHail',
+        roleORIGINAL: 'Designer at Globex Corporation',
+        bioEN: 'Lorem ipsum dolor sit amet',
+        bioORIGINAL: 'Lorem ipsum dolor sit amet',
         image: '/speakers/speaker-example.webp',
+        langSwitch: 'Azəri versiya', // Azeri
       },
-
       {
-        name: 'Dianne Guilianelli',
-        role: 'General Manager at Initech',
+        nameEN: 'Steven McHail',
+        roleEN: 'Designer at Globex Corporation',
+        nameORIGINAL: 'Steven McHail',
+        roleORIGINAL: 'Designer at Globex Corporation',
+        bioEN: 'Lorem ipsum dolor sit amet',
+        bioORIGINAL: 'Lorem ipsum dolor sit amet',
         image: '/speakers/speaker-example.webp',
+        langSwitch: 'Беларуская версія', // Belarus
+      },
+      {
+        nameEN: 'Steven McHail',
+        roleEN: 'Designer at Globex Corporation',
+        nameORIGINAL: 'Steven McHail',
+        roleORIGINAL: 'Designer at Globex Corporation',
+        bioEN: 'Lorem ipsum dolor sit amet',
+        bioORIGINAL: 'Lorem ipsum dolor sit amet',
+        image: '/speakers/speaker-example.webp',
+        langSwitch: 'ქართული ვერსია', // Georgian
+      },
+      {
+        nameEN: 'Steven McHail',
+        roleEN: 'Designer at Globex Corporation',
+        nameORIGINAL: 'Steven McHail',
+        roleORIGINAL: 'Designer at Globex Corporation',
+        bioEN: 'Lorem ipsum dolor sit amet',
+        bioORIGINAL: 'Lorem ipsum dolor sit amet',
+        image: '/speakers/speaker-example.webp',
+        langSwitch: 'Кыргызча варианты', // Kyrgis
+      },
+      {
+        nameEN: 'Steven McHail',
+        roleEN: 'Designer at Globex Corporation',
+        nameORIGINAL: 'Steven McHail',
+        roleORIGINAL: 'Designer at Globex Corporation',
+        bioEN: 'Lorem ipsum dolor sit amet',
+        bioORIGINAL: 'Lorem ipsum dolor sit amet',
+        image: '/speakers/speaker-example.webp',
+        langSwitch: 'Varianta moldovenească', // Moldovan
+      },
+      {
+        nameEN: 'Steven McHail',
+        roleEN: 'Designer at Globex Corporation',
+        nameORIGINAL: 'Steven McHail',
+        roleORIGINAL: 'Designer at Globex Corporation',
+        bioEN: 'Lorem ipsum dolor sit amet',
+        bioORIGINAL: 'Lorem ipsum dolor sit amet',
+        image: '/speakers/speaker-example.webp',
+        langSwitch: 'Қазақша нұсқасы', // Kazakh
+      },
+      {
+        nameEN: 'Steven McHail',
+        roleEN: 'Designer at Globex Corporation',
+        nameORIGINAL: 'Steven McHail',
+        roleORIGINAL: 'Designer at Globex Corporation',
+        bioEN: 'Lorem ipsum dolor sit amet',
+        bioORIGINAL: 'Lorem ipsum dolor sit amet',
+        image: '/speakers/speaker-example.webp',
+        langSwitch: 'Русская версия', // Russian
+      },
+      {
+        nameEN: 'Steven McHail',
+        roleEN: 'Designer at Globex Corporation',
+        nameORIGINAL: 'Steven McHail',
+        roleORIGINAL: 'Designer at Globex Corporation',
+        bioEN: 'Lorem ipsum dolor sit amet',
+        bioORIGINAL: 'Lorem ipsum dolor sit amet',
+        image: '/speakers/speaker-example.webp',
+        langSwitch: 'Варианти тоҷикӣ', // Tajik
+      },
+      {
+        nameEN: 'Steven McHail',
+        roleEN: 'Designer at Globex Corporation',
+        nameORIGINAL: 'Steven McHail',
+        roleORIGINAL: 'Designer at Globex Corporation',
+        bioEN: 'Lorem ipsum dolor sit amet',
+        bioORIGINAL: 'Lorem ipsum dolor sit amet',
+        image: '/speakers/speaker-example.webp',
+        langSwitch: 'Türkmen görnüşi', // Turkmen
       },
     ],
   },
   {
-    name: 'Speakers & Workshops',
-    date: 'March 2',
-    dateTime: '2023-03-02',
     speakers: [
       {
-        name: 'Damaris Kimura',
-        role: 'Senior Engineer at OCP',
+        nameEN: 'Steven McHail',
+        roleEN: 'Designer at Globex Corporation',
+        nameORIGINAL: 'Steven McHail',
+        roleORIGINAL: 'Designer at Globex Corporation',
+        bioEN: 'Lorem ipsum dolor sit amet',
+        bioORIGINAL: 'Lorem ipsum dolor sit amet',
         image: '/speakers/speaker-example.webp',
+        langSwitch: 'Українська версія', // Ukrainian
       },
       {
-        name: 'Ibrahim Frasch',
-        role: 'Programmer at Umbrella Corp',
+        nameEN: 'Steven McHail',
+        roleEN: 'Designer at Globex Corporation',
+        nameORIGINAL: 'Steven McHail',
+        roleORIGINAL: 'Designer at Globex Corporation',
+        bioEN: 'Lorem ipsum dolor sit amet',
+        bioORIGINAL: 'Lorem ipsum dolor sit amet',
         image: '/speakers/speaker-example.webp',
-      },
-      {
-        name: 'Cathlene Burrage',
-        role: 'Frontend Developer at Buy n Large',
-        image: '/speakers/speaker-example.webp',
+        langSwitch: "O'zbekcha versiyasi", // Uzbek
       },
     ],
   },
   {
-    name: 'Interviews',
-    date: 'March 3',
-    dateTime: '2023-03-03',
     speakers: [
       {
-        name: 'Andrew Greene',
-        role: 'Frontend Developer at Ultratech',
+        nameEN: 'Steven McHail',
+        roleEN: 'Designer at Globex Corporation',
+        nameORIGINAL: 'Steven McHail',
+        roleORIGINAL: 'Designer at Globex Corporation',
+        bioEN: 'Lorem ipsum dolor sit amet',
+        bioORIGINAL: 'Lorem ipsum dolor sit amet',
         image: '/speakers/speaker-example.webp',
+        langSwitch: 'Դիտել հայերեն',
       },
       {
-        name: 'Heather Terry',
-        role: 'Backend Developer at Xanatos Enterprises',
+        nameEN: 'Steven McHail',
+        roleEN: 'Designer at Globex Corporation',
+        nameORIGINAL: 'Steven McHail',
+        roleORIGINAL: 'Designer at Globex Corporation',
+        bioEN: 'Lorem ipsum dolor sit amet',
+        bioORIGINAL: 'Lorem ipsum dolor sit amet',
         image: '/speakers/speaker-example.webp',
+        langSwitch: 'Դիտել հայերեն',
       },
       {
-        name: 'Piers Wilkins',
-        role: 'Full stack Developer at BiffCo',
+        nameEN: 'Steven McHail',
+        roleEN: 'Designer at Globex Corporation',
+        nameORIGINAL: 'Steven McHail',
+        roleORIGINAL: 'Designer at Globex Corporation',
+        bioEN: 'Lorem ipsum dolor sit amet',
+        bioORIGINAL: 'Lorem ipsum dolor sit amet',
         image: '/speakers/speaker-example.webp',
+        langSwitch: 'Դիտել հայերեն',
       },
     ],
   },
