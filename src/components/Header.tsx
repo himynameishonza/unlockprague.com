@@ -17,7 +17,7 @@ const SocialButton = ({ icon, link }: { icon: ReactNode; link: string }) => {
 }
 export function Header() {
   return (
-    <header className="absolute right-0 left-0 top-0 z-50 pb-4">
+    <header className="absolute right-0 left-0 top-0 isolate z-40 pb-4">
       <Container className="mt-2 flex flex-col flex-wrap items-center justify-center sm:flex-row sm:justify-between  lg:mt-10">
         <div className="mt-8 lg:mt-0 lg:grow lg:basis-0">
           <Logo className="h-8 w-auto" />
