@@ -115,6 +115,7 @@ export const dataSpeakers = [
           'Lorem Ipsum є псевдо- латинський текст використовується у веб - дизайні, типографіка, верстка, і друку замість англійської підкреслити елементи дизайну над змістом. Це також називається заповнювач ( або наповнювач) текст. Це зручний інструмент для макетів. Це допомагає намітити візуальні елементи в документ або презентацію, наприклад, друкарня, шрифт, або макет. Lorem Ipsum в основному частиною латинського тексту за класичною автор і філософа Цицерона. Це слова і букви були змінені додаванням або видаленням, так навмисно роблять його зміст безглуздо, це не є справжньою, правильно чи зрозумілою Латинської більше.',
         image: '/speakers/speaker-example.webp',
         langSwitch: 'Հայերեն տարբերակ', // Armenian
+        rtl: false,
       },
       {
         nameEN: 'Steven McHail',
@@ -125,6 +126,7 @@ export const dataSpeakers = [
         bioORIGINAL: 'Lorem ipsum dolor sit amet',
         image: '/speakers/speaker-example.webp',
         langSwitch: 'Azəri versiya', // Azeri
+        rtl: false,
       },
       {
         nameEN: 'Steven McHail',
@@ -135,6 +137,7 @@ export const dataSpeakers = [
         bioORIGINAL: 'Lorem ipsum dolor sit amet',
         image: '/speakers/speaker-example.webp',
         langSwitch: 'Беларуская версія', // Belarus
+        rtl: false,
       },
       {
         nameEN: 'Steven McHail',
@@ -145,6 +148,7 @@ export const dataSpeakers = [
         bioORIGINAL: 'Lorem ipsum dolor sit amet',
         image: '/speakers/speaker-example.webp',
         langSwitch: 'ქართული ვერსია', // Georgian
+        rtl: false,
       },
       {
         nameEN: 'Steven McHail',
@@ -155,6 +159,7 @@ export const dataSpeakers = [
         bioORIGINAL: 'Lorem ipsum dolor sit amet',
         image: '/speakers/speaker-example.webp',
         langSwitch: 'Кыргызча варианты', // Kyrgis
+        rtl: false,
       },
       {
         nameEN: 'Steven McHail',
@@ -165,6 +170,7 @@ export const dataSpeakers = [
         bioORIGINAL: 'Lorem ipsum dolor sit amet',
         image: '/speakers/speaker-example.webp',
         langSwitch: 'Varianta moldovenească', // Moldovan
+        rtl: false,
       },
       {
         nameEN: 'Steven McHail',
@@ -175,6 +181,7 @@ export const dataSpeakers = [
         bioORIGINAL: 'Lorem ipsum dolor sit amet',
         image: '/speakers/speaker-example.webp',
         langSwitch: 'Қазақша нұсқасы', // Kazakh
+        rtl: false,
       },
       {
         nameEN: 'Steven McHail',
@@ -185,6 +192,7 @@ export const dataSpeakers = [
         bioORIGINAL: 'Lorem ipsum dolor sit amet',
         image: '/speakers/speaker-example.webp',
         langSwitch: 'Русская версия', // Russian
+        rtl: false,
       },
       {
         nameEN: 'Steven McHail',
@@ -195,6 +203,7 @@ export const dataSpeakers = [
         bioORIGINAL: 'Lorem ipsum dolor sit amet',
         image: '/speakers/speaker-example.webp',
         langSwitch: 'Варианти тоҷикӣ', // Tajik
+        rtl: false,
       },
       {
         nameEN: 'Steven McHail',
@@ -205,6 +214,7 @@ export const dataSpeakers = [
         bioORIGINAL: 'Lorem ipsum dolor sit amet',
         image: '/speakers/speaker-example.webp',
         langSwitch: 'Türkmen görnüşi', // Turkmen
+        rtl: false,
       },
     ],
   },
@@ -218,7 +228,8 @@ export const dataSpeakers = [
         bioEN: 'Lorem ipsum dolor sit amet',
         bioORIGINAL: 'Lorem ipsum dolor sit amet',
         image: '/speakers/speaker-example.webp',
-        langSwitch: 'Українська версія', // Ukrainian
+        langSwitch: 'عرض باللغة العربية', // Ukrainian
+        rtl: true,
       },
       {
         nameEN: 'Steven McHail',
@@ -229,6 +240,7 @@ export const dataSpeakers = [
         bioORIGINAL: 'Lorem ipsum dolor sit amet',
         image: '/speakers/speaker-example.webp',
         langSwitch: "O'zbekcha versiyasi", // Uzbek
+        rtl: false,
       },
     ],
   },
@@ -243,6 +255,7 @@ export const dataSpeakers = [
         bioORIGINAL: 'Lorem ipsum dolor sit amet',
         image: '/speakers/speaker-example.webp',
         langSwitch: 'Դիտել հայերեն',
+        rtl: false,
       },
       {
         nameEN: 'Steven McHail',
@@ -253,6 +266,7 @@ export const dataSpeakers = [
         bioORIGINAL: 'Lorem ipsum dolor sit amet',
         image: '/speakers/speaker-example.webp',
         langSwitch: 'Դիտել հայերեն',
+        rtl: false,
       },
       {
         nameEN: 'Steven McHail',
@@ -263,6 +277,7 @@ export const dataSpeakers = [
         bioORIGINAL: 'Lorem ipsum dolor sit amet',
         image: '/speakers/speaker-example.webp',
         langSwitch: 'Դիտել հայերեն',
+        rtl: false,
       },
     ],
   },

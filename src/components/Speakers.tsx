@@ -17,6 +17,7 @@ export function Speakers() {
     bioORIGINAL: '',
     image: '',
     langSwitch: '',
+    rtl: false,
   })
 
   const setSpeaker = (speaker) => {
@@ -77,7 +78,10 @@ export function Speakers() {
                   </div>
                   <div className="flex items-center justify-end gap-4 border-t border-slate-100 p-4">
                     <a
-                      className="inline-flex cursor-pointer rounded bg-slate-50 px-3 py-2 font-medium text-slate-500 transition-all hover:bg-slate-200"
+                      className={classnames(
+                        'inline-flex cursor-pointer rounded bg-slate-50 px-3 py-2 font-medium text-slate-500 transition-all hover:bg-slate-200'
+                      )}
+                      style={{ direction: data.rtl ? 'rtl' : 'ltr' }}
                       onClick={() => setOriginalLang(!originalLang)}
                     >
                       {originalLang ? 'Show in English' : data.langSwitch}

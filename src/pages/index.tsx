@@ -85,8 +85,8 @@ export default function Home() {
       <main>
         <Hero />
 
-        {/* <Schedule />
-        <Speakers /> */}
+        {/*  <Schedule /> */}
+        <Speakers />
 
         <ComingSoon />
         <Sponsors />
