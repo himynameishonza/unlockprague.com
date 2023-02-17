@@ -86,7 +86,7 @@ export default function Home() {
         <Hero />
 
         {/*  <Schedule /> */}
-        <Speakers />
+        {/* <Speakers /> */}
 
         <ComingSoon />
         <Sponsors />
