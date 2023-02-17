@@ -85,10 +85,10 @@ export default function Home() {
       <main>
         <Hero />
 
-        {/*  <Schedule /> */}
-        {/* <Speakers /> */}
+        <Schedule />
+        <Speakers />
 
-        <ComingSoon />
+        {/* <ComingSoon /> */}
         <Sponsors />
         <div className="space-y-24 bg-gradient-to-tl from-slate-800 to-black pt-20 lg:pt-24">
           <Grants />
