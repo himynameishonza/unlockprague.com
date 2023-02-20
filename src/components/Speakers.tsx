@@ -1,5 +1,5 @@
 import { Container } from '@/components/Container'
-import { dataSpeakers } from '@/utils/data'
+import { dataSpeakers, dataTempSpeakers } from '@/utils/data'
 import { Fragment, useState } from 'react'
 import Image from 'next/image'
 import classnames from 'classnames'
@@ -119,7 +119,7 @@ export function Speakers() {
             </p>
           </div>
 
-          <div className="mt-10 flex gap-4 border-b pb-4 pr-8">
+          {/* <div className="mt-10 flex gap-4 border-b pb-4 pr-8">
             <a
               onClick={() => setSelectedDay(0)}
               className={classnames(
@@ -147,10 +147,11 @@ export function Speakers() {
             >
               Artists
             </a>
-          </div>
+          </div> */}
 
           <div className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-12 sm:grid-cols-2 lg:max-w-7xl lg:grid-cols-3">
-            {dataSpeakers[selectedDay].speakers.map((speaker, i) => {
+            {/* {dataSpeakers[selectedDay].speakers.map((speaker, i) => { */}
+            {dataTempSpeakers.map((speaker, i) => {
               return (
                 <div key={i} className="flex items-center gap-4">
                   <div className="relative aspect-square w-24 rounded-2xl rounded-bl-3xl rounded-tr-3xl border-2 border-rose-300 ring-4 ring-rose-50">

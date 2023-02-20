@@ -184,13 +184,12 @@ export function Schedule() {
       <Container className="relative z-10">
         <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-4xl lg:pr-24">
           <h2 className="text-rose-1600 font-display text-4xl font-medium tracking-tighter sm:text-5xl">
-            Our three day schedule is jam-packed with brilliant, creative, evil
-            geniuses.
+            Schedule
           </h2>
           <p className="mt-4 font-display text-2xl tracking-tight text-slate-600">
-            The worst people in our industry giving the best talks you’ve ever
-            seen. Nothing will be recorded and every attendee has to sign an NDA
-            to watch the talks.
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean id
+            metus id velit ullamcorper pulvinar. In rutrum. Pellentesque ipsum.
+            Quisque tincidunt scelerisque libero.
           </p>
         </div>
       </Container>
@@ -200,7 +199,35 @@ export function Schedule() {
           <div className="absolute inset-x-0 bottom-0 h-40 bg-gradient-to-t from-white" />
         </div>
 
-        <Container className="relative max-w-5xl">asd</Container>
+        <Container className="relative grid max-w-7xl items-center justify-center gap-8 lg:grid-cols-3">
+          <div className="max-w-md self-start bg-white p-6 shadow-xl shadow-slate-300/30 ">
+            <h2 className="bg-gradient-to-b from-[#FF00A2] to-red-600 bg-clip-text text-xl font-bold text-transparent ">
+              Topic 1
+            </h2>
+            <p className="font-regular font-lg leading-7">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
+              quibusdam aspernatur, rerum veritatis alias ad maiores fuga.
+            </p>
+          </div>
+          <div className="max-w-md bg-white p-6 shadow-xl shadow-slate-300/30 ">
+            <h2 className="bg-gradient-to-b from-[#FF00A2] to-red-600 bg-clip-text text-xl font-bold text-transparent ">
+              Topic 2
+            </h2>
+            <p className="font-regular font-lg leading-7">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
+              quibusdam aspernatur, rerum veritatis alias ad maiores fuga.
+            </p>
+          </div>
+          <div className="max-w-md bg-white p-6 shadow-xl shadow-slate-300/30 ">
+            <h2 className="bg-gradient-to-b from-[#FF00A2] to-red-600 bg-clip-text text-xl font-bold text-transparent">
+              Topic 3
+            </h2>
+            <p className="font-regular font-lg leading-7">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
+              quibusdam aspernatur, rerum veritatis alias ad maiores fuga.
+            </p>
+          </div>
+        </Container>
 
         {/* <Container className="relative max-w-5xl">
           <ScheduleStatic />
