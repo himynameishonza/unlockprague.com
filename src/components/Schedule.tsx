@@ -107,77 +107,13 @@ const schedule = [
   },
 ]
 
-function ScheduleTabbed() {
-  let [tabOrientation, setTabOrientation] = useState('horizontal')
-
-  useEffect(() => {
-    let smMediaQuery = window.matchMedia('(min-width: 640px)')
-
-    function onMediaQueryChange({ matches }) {
-      setTabOrientation(matches ? 'vertical' : 'horizontal')
-    }
-
-    onMediaQueryChange(smMediaQuery)
-    smMediaQuery.addEventListener('change', onMediaQueryChange)
-
-    return () => {
-      smMediaQuery.removeEventListener('change', onMediaQueryChange)
-    }
-  }, [])
-
-  return (
-    <Tab.Group
-      as="div"
-      className="mx-auto grid max-w-2xl grid-cols-1 gap-y-6 sm:grid-cols-2 lg:hidden"
-      vertical={tabOrientation === 'vertical'}
-    >
-      <Tab.List className="-mx-4 flex gap-x-4 gap-y-10 overflow-x-auto pl-4 pb-4 sm:mx-0 sm:flex-col sm:pb-0 sm:pl-0 sm:pr-8">
-        {/* @ts-ignore */}
-        {({ selectedIndex }) =>
-          schedule.map((day, dayIndex) => (
-            <div
-              key={day.dateTime}
-              className={clsx(
-                'relative w-3/4 flex-none pr-4 sm:w-auto sm:pr-0',
-                dayIndex !== selectedIndex && 'opacity-70'
-              )}
-            >
-              <DaySummary
-                day={{
-                  ...day,
-                  date: (
-                    <Tab className="[&:not(:focus-visible)]:focus:outline-none">
-                      <span className="absolute inset-0" />
-                      {day.date}
-                    </Tab>
-                  ),
-                }}
-              />
-            </div>
-          ))
-        }
-      </Tab.List>
-      <Tab.Panels>
-        {schedule.map((day) => (
-          <Tab.Panel
-            key={day.dateTime}
-            className="[&:not(:focus-visible)]:focus:outline-none"
-          >
-            <TimeSlots day={day} className={'bg-white'} />
-          </Tab.Panel>
-        ))}
-      </Tab.Panels>
-    </Tab.Group>
-  )
-}
-
 function DaySummary({ day }) {
   return (
     <>
       <h3 className="text-2xl font-semibold tracking-tight text-rose-500">
         <time dateTime={day.dateTime}>{day.date}</time>
       </h3>
-      <p className="mt-1.5 text-base tracking-tight text-slate-700">
+      <p className="mt-1.5 text-base tracking-tight text-slate-800">
         {day.summary}
       </p>
     </>
@@ -263,15 +199,17 @@ export function Schedule() {
           <div className="absolute inset-x-0 top-0 h-40 bg-gradient-to-b from-white" />
           <div className="absolute inset-x-0 bottom-0 h-40 bg-gradient-to-t from-white" />
         </div>
-        <Container className="relative max-w-5xl">
-          {/* <ScheduleTabbed /> */}
+
+        <Container className="relative max-w-5xl">asd</Container>
+
+        {/* <Container className="relative max-w-5xl">
           <ScheduleStatic />
 
           <div className="mt-16">
             <h3 className="text-2xl font-semibold tracking-tight text-rose-500">
               Accompanying program
             </h3>
-            <p className="mt-1.5 max-w-xl text-base tracking-tight text-slate-700">
+            <p className="mt-1.5 max-w-xl text-base tracking-tight text-slate-800">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia
               voluptatibus quo, ut distinctio ad harum deleniti quidem molestias
               optio ex perferendis, dolorum ullam rerum consectetur sit dolores,
@@ -312,7 +250,7 @@ export function Schedule() {
               </section>
             </div>
           </div>
-        </Container>
+        </Container> */}
       </div>
     </section>
   )

@@ -51,7 +51,7 @@ export function Footer() {
                   >
                     Personal Data Protection Policy
                   </Dialog.Title>
-                  <div className="mt-4 space-y-4 text-slate-700">
+                  <div className="mt-4 space-y-4 text-slate-800">
                     <p>
                       We treat personal data in compliance with the legislation
                       in force. In particular, we assure the protection of
@@ -249,9 +249,9 @@ export function Footer() {
               Questions? Contact us at{' '}
               <a
                 className="text-white underline-offset-2 hover:underline"
-                href="mailto:example@example.com"
+                href="mailto:unlockfest2023@gmail.com"
               >
-                example[at]example.co
+                unlockfest2023@gmail.com
               </a>
             </p>
             <p className="mt-6 text-sm text-slate-400 lg:mt-0">
@@ -262,7 +262,7 @@ export function Footer() {
                 Personal data protection
               </a>
               <span className="mx-2 opacity-20">|</span>Copyright &copy;{' '}
-              {new Date().getFullYear()} Prague Civil Society, All rights
+              {new Date().getFullYear()} Prague Civil Society Centre, All rights
               reserved.
             </p>
           </div>

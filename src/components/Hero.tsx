@@ -31,14 +31,13 @@ export function Hero() {
           </Button>
           <p className="text-centerfont-medium py-4 text-base text-rose-600 sm:text-left">
             We welcome applicants from Armenia, Azerbaijan, Belarus, Georgia,
-            Kazakhstan, Kyrgyzstan, Moldova, Russia, Tajikistan, Turkmenistan,
-            Ukraine, and Uzbekistan.
+            Kazakhstan, Kyrgyzstan, Moldova, Tajikistan, Turkmenistan, Ukraine,
+            and Uzbekistan.
           </p>
-          <dl className="mt-10 grid gap-y-6 gap-x-10 text-center sm:mt-16 sm:grid-cols-2 sm:gap-y-10 sm:gap-x-16 lg:justify-start lg:text-left">
+          <dl className="mt-10 grid gap-y-6 gap-x-10 text-center sm:mt-16 sm:grid-cols-3 sm:gap-y-10 sm:gap-x-16 lg:justify-start lg:text-left">
             {[
               ['Speakers', '30'],
               ['People attending', '200+'],
-              ['Venue', 'Kasárna Karlín'],
               ['Location', 'Prague, CZE'],
             ].map(([name, value]) => (
               <div key={name}>

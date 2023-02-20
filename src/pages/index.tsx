@@ -89,9 +89,10 @@ export default function Home() {
         <Speakers />
 
         {/* <ComingSoon /> */}
-        <Sponsors />
-        <div className="space-y-24 bg-gradient-to-tl from-slate-800 to-black pt-20 lg:pt-24">
-          <Grants />
+
+        <div className="space-y-16 bg-gradient-to-tl from-slate-800 to-black pt-20 lg:pt-24">
+          <Sponsors />
+          {/* <Grants /> */}
           <Footer />
           <div className="fixed bottom-6 right-6">
             <a

@@ -66,7 +66,7 @@ export function Speakers() {
                       >
                         {originalLang ? data.nameORIGINAL : data.nameEN}
                       </Dialog.Title>
-                      <h4 className=" font-medium text-slate-700">
+                      <h4 className=" font-medium text-slate-800">
                         {originalLang ? data.roleORIGINAL : data.roleEN}
                       </h4>
                       <div className="space-y-4 text-slate-600">
@@ -165,7 +165,7 @@ export function Speakers() {
                     <h3 className="text-xl font-medium text-slate-900">
                       {speaker.nameEN}
                     </h3>
-                    <h4 className=" text-slate-700">{speaker.roleEN}</h4>
+                    <h4 className=" text-slate-800">{speaker.roleEN}</h4>
                     <a
                       onClick={() => setSpeaker(speaker)}
                       className="mt-1 inline-flex cursor-pointer rounded bg-transparent px-2 py-1 pl-0 text-sm text-rose-500 transition-all hover:bg-rose-500 hover:pl-2 hover:text-white"

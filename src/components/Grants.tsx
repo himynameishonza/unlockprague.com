@@ -52,7 +52,7 @@ export function Grants() {
                   >
                     Partnership Travel Grants Conditions
                   </Dialog.Title>
-                  <div className="mt-4 space-y-4 text-slate-700">
+                  <div className="mt-4 space-y-4 text-slate-800">
                     <p>
                       Your collaboration could be in the form of an
                       investigation, an art exhibition, a public event, a

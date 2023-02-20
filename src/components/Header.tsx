@@ -3,7 +3,7 @@ import { Container } from '@/components/Container'
 import { DiamondIcon } from '@/components/DiamondIcon'
 import Logo from '@/components/Logo'
 import { ReactNode } from 'react'
-import { FaFacebookF, FaInstagram, FaYoutube } from 'react-icons/fa'
+import { FaFacebookF, FaInstagram, FaTelegramPlane } from 'react-icons/fa'
 
 const SocialButton = ({ icon, link }: { icon: ReactNode; link: string }) => {
   return (
@@ -28,8 +28,6 @@ export function Header() {
               <time dateTime="2022-04-04">25</time>-
               <time dateTime="2022-04-06">26 of May, 2023</time>
             </p>
-            <DiamondIcon className="h-1.5 w-1.5 overflow-visible fill-current stroke-current" />
-            <p>Kasárna Karlín, Prague</p>
           </div>
         </div>
         <div className="mt-8 flex items-center gap-8 lg:mt-0">
@@ -43,8 +41,8 @@ export function Header() {
               icon={<FaInstagram />}
             />
             <SocialButton
-              link="https://www.youtube.com/@PragueCivilSocietyCentre"
-              icon={<FaYoutube />}
+              link="https://t.me/PCSCnotifications"
+              icon={<FaTelegramPlane />}
             />
           </div>
           <Button href="#" className="hidden  sm:flex">
