@@ -193,18 +193,33 @@ export function Schedule() {
           </p>
         </div>
       </Container>
+
       <div className="relative mt-14 sm:mt-24">
         <div className="absolute inset-x-0 -top-40 -bottom-32 overflow-hidden bg-slate-100">
           <div className="absolute inset-x-0 top-0 h-40 bg-gradient-to-b from-white" />
           <div className="absolute inset-x-0 bottom-0 h-40 bg-gradient-to-t from-white" />
         </div>
 
+        {/* <Container className="relative flex max-w-7xl flex-row flex-wrap items-center justify-center gap-8">
+          <p className="text-xl font-bold leading-7">
+            Lorem ipsum dolor sit amet
+          </p>
+          <div className="h-4 w-4 rounded-full bg-red-500" />
+          <p className="text-xl font-bold leading-7">
+            Consectetur adipisicing elit
+          </p>
+          <div className="h-4 w-4 rounded-full bg-red-500" />
+          <p className="text-xl  font-bold leading-7">
+            Rrerum veritatis alias ad maiores fuga.
+          </p>
+        </Container> */}
+
         <Container className="relative grid max-w-7xl items-center justify-center gap-8 lg:grid-cols-3">
           <div className="max-w-md self-start bg-white p-6 shadow-xl shadow-slate-300/30 ">
             <h2 className="bg-gradient-to-b from-[#FF00A2] to-red-600 bg-clip-text text-xl font-bold text-transparent ">
               Topic 1
             </h2>
-            <p className="font-regular font-lg leading-7">
+            <p className="font-regular text-lg leading-7">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
               quibusdam aspernatur, rerum veritatis alias ad maiores fuga.
             </p>
@@ -213,7 +228,7 @@ export function Schedule() {
             <h2 className="bg-gradient-to-b from-[#FF00A2] to-red-600 bg-clip-text text-xl font-bold text-transparent ">
               Topic 2
             </h2>
-            <p className="font-regular font-lg leading-7">
+            <p className="font-regular text-lg leading-7">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
               quibusdam aspernatur, rerum veritatis alias ad maiores fuga.
             </p>
@@ -222,7 +237,7 @@ export function Schedule() {
             <h2 className="bg-gradient-to-b from-[#FF00A2] to-red-600 bg-clip-text text-xl font-bold text-transparent">
               Topic 3
             </h2>
-            <p className="font-regular font-lg leading-7">
+            <p className="font-regular text-lg leading-7">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
               quibusdam aspernatur, rerum veritatis alias ad maiores fuga.
             </p>

@@ -211,9 +211,8 @@ export function Footer() {
                       <br />
                       ID No. 04190815
                       <br />
-                      registered registered in the Register of Endowments
-                      maintained by the Municipal Court in Prague, Section N,
-                      File 1251.
+                      registered in the Register of Endowments maintained by the
+                      Municipal Court in Prague, Section N, File 1251.
                     </p>
                     <h3 className="font-bold text-slate-500">
                       Contact details
