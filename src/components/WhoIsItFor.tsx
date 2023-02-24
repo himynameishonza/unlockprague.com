@@ -12,11 +12,7 @@ const points = [
 ]
 export function WhoIsItFor() {
   return (
-    <section
-      id="schedule"
-      aria-label="Schedule"
-      className="bg-white py-20 sm:py-32"
-    >
+    <section id="schedule" aria-label="Schedule" className="bg-white py-20">
       <Container className="relative z-10">
         <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-4xl lg:pr-24">
           <h2 className="text-rose-1600 font-display text-4xl font-medium tracking-tighter sm:text-5xl">
@@ -37,15 +33,15 @@ export function WhoIsItFor() {
         </div>
 
         <Container className="relative max-w-5xl">
-          <ul className="flex flex-col flex-wrap items-center justify-center gap-12 sm:flex-row">
+          <ul className="flex flex-col flex-wrap items-center justify-center gap-8 sm:flex-row">
             {points.map((item, i) => {
               return (
                 <>
-                  <li className="text-xl font-bold text-rose-500" key={i}>
+                  <li
+                    className="w-full space-y-8 bg-white/90 py-8 px-10 text-center font-bold text-rose-500 shadow-xl shadow-rose-900/5 backdrop-blur sm:col-span-2 sm:w-auto"
+                    key={i}
+                  >
                     {item}
-                  </li>
-                  <li className="hidden last:hidden sm:block">
-                    <DiamondIcon className="h-2 fill-rose-500" />
                   </li>
                 </>
               )

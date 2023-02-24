@@ -210,22 +210,22 @@ export function Schedule() {
         </div>
 
         <Container className="relative sm:max-w-2xl lg:max-w-7xl">
-          <ul className="max-w-2xl list-outside list-disc px-4">
+          <ul className="m-auto grid max-w-4xl grid-cols-1 flex-wrap gap-8 sm:grid-cols-2 lg:m-0">
             {tempShedule.map((item, i) => {
               return (
                 <li
-                  className="py-5 text-lg font-bold text-rose-500 sm:text-xl"
+                  className="flex w-full max-w-md items-center justify-center space-y-8 bg-white/90 py-14 px-10 text-center font-bold text-rose-500 shadow-xl shadow-rose-900/5 backdrop-blur"
                   key={i}
                 >
                   {item}
                 </li>
               )
             })}
-            <li className="py-5 text-lg font-bold text-rose-500 sm:text-xl">
-              Mediathon{' '}
-              <span className="ml-2 text-base font-normal text-slate-500">
+            <li className="space-y-8 bg-white/90 py-14 px-10 text-center font-bold text-rose-500 shadow-xl shadow-rose-900/5 backdrop-blur sm:col-span-2">
+              Mediathon
+              <p className="ml-2 text-base font-normal text-slate-500">
                 For creative minds...
-              </span>
+              </p>
               <div className="text-base text-black">
                 <p className="font-normal">
                   Take part in our content creation challenge. Work in teams to
@@ -235,14 +235,14 @@ export function Schedule() {
                   cause.
                 </p>
 
-                <p className="mt-3 mb-2 font-bold">
+                <p className="mt-4 mb-2 font-bold">
                   Sounds good but need some help?
                 </p>
                 <p className="font-normal">
                   Don&apos;t worry, Unlock will be full of experts ready to
                   guide you and provide the necessary equipment.
                 </p>
-                <p className="mt-3 font-bold">
+                <p className="mt-4 font-bold">
                   Sign up in the application form.
                 </p>
               </div>

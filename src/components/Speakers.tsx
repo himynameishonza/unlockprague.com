@@ -19,10 +19,10 @@ const speakers = [
     bioEN: (
       <p>
         Assem is a journalist, scriptwriter and political activist. She is a
-        co-founder of masa.media – educational web publication on
-        Kazakhstan&apos;s politics and a founder of Til Kespek Joq – publication
-        and a YouTube channel in Kazakh language that covers topics state media
-        is silent about.
+        co-founder of masa.media, an educational website focused on
+        Kazakhstan&apos;s politics. She is also a founder of Til Kespek Joq, a
+        publication and YouTube channel in Kazakh language that covers topics
+        ignored by state media.
       </p>
     ),
     bioORIGINAL: (
@@ -41,25 +41,28 @@ const speakers = [
     bioEN: (
       <>
         <p>
-          Journalist from Moldova, well known for her work as a television
-          producer, event organizer and content creator, with a civic voice.
-          Since 2013, Nata leads Klumea, an NGO which basic fields are: cultural
-          projects, which aim to save cultural heritage and support local
-          producers. Within them, 10 years ago, the biggest festivals in Moldova
-          were born, such as IA MANIA festival & HODINA FEST. Klumea creates a
-          series of media projects, through which it promotes media literacy and
-          civic activism. In the weekly Internetu Grăiește podcast, the team she
-          leads informs, fdenounce fakes and explains how the russian propaganda
-          works.
+          Nata is a journalist from Moldova well known for her work as a
+          television producer, event organizer and content creator with a civic
+          focus.
         </p>
         <p>
-          Nata Albot is the author of two cookbooks, dedicated to the
-          gastronomic traditions of Moldova. One of her books was awarded at the
-          Gourmand World Cookbook Award. In parallel, she runs a Communication
-          and Marketing agency, which works especially with small and
-          medium-sized businesses. Also, Nata is the co-owner of From The Heart
-          Shop www.fth.md - an online gift shop that promotes small producers
-          from Moldova.
+          Since 2013, Nata has lead Klumea, an NGO focused on cultural projects
+          that aim to save cultural heritage and support local producers. Among
+          these projects are some of the biggest festivals in Moldova, IA MANIA
+          festival & HODINA FEST.
+        </p>
+        <p>
+          Through a series of media projects, Klumea promotes media literacy and
+          civic activism. In the weekly Internetu Grăiește podcast, her team
+          informs, denounces fakes and explains how Russian propaganda works.
+        </p>
+        <p>
+          Nata is the author of two cookbooks dedicated to the gastronomic
+          traditions of Moldova. One of her books was awarded at the Gourmand
+          World Cookbook Award. She also runs a communication and marketing
+          agency which works especially with small and medium-sized businesses.
+          Nata is the co-owner of From The Heart Shop, an online gift shop that
+          promotes small producers from Moldova.
         </p>
       </>
     ),
@@ -98,9 +101,10 @@ const speakers = [
     name: 'Artur Atayan',
     bioEN: (
       <p>
-        Producer and editor at Boon TV - the only Armenian educational TV
-        company oriented towards culture, science and social change. He&apos;s
-        into arts, music and education, so Boon TV is the ideal spot for him.
+        Artur is a producer and editor with Boon TV, the only Armenian
+        educational TV company oriented towards culture, science and social
+        change. He&apos;s into arts, music and education, so Boon TV is the
+        ideal spot for him.
       </p>
     ),
     bioORIGINAL: (
@@ -120,17 +124,19 @@ const speakers = [
     bioEN: (
       <>
         <p>
-          Blogger, popularizer of reading, the author of the YouTube channel
-          &quot;No one will watch this&quot;, where she creates hard talk
-          interviews.
+          Emma is a Ukrainian blogger, promoter of reading, and the producer of
+          the YouTube channel &quotNo One Will Watch This&quot, where she hosts
+          hard talk interviews.
         </p>
         <p>
-          Co-author of the YouTube channel &quot;Palaye&quot;. In cooperation
-          with journalist Yana Brenzei, they discuss trigger topics about the
-          Russian-Ukrainian war, women&apos;s rights and LGBT+. In January, Emma
-          launched an initiative to provide books to schools, hubs and libraries
-          in the de-occupied territories, where the Russians stole and burned
-          Ukrainian books.
+          She is also co-producer of the YouTube channel &quot;Palaye&quot;. In
+          cooperation with journalist Yana Brenzei, they discuss difficult
+          topics about the war in Ukraine, women&apos;s rights and LGBT+ issues.
+        </p>
+        <p>
+          In January, Emma launched an initiative to provide books to schools,
+          hubs and libraries in the de-occupied territories, where the Russians
+          stole and burned Ukrainian books.
         </p>
       </>
     ),
@@ -158,19 +164,19 @@ const speakers = [
     name: 'Daniyar Amanaliev',
     bioEN: (
       <>
-        <p>Co-founder and band master of ololo group, Kyrgyzstan.</p>
+        <p>Daniyar is the co-founder of Ololo group in Kyrgyzstan. </p>
         <p>
           Ololo group of companies includes a chain of creative hubs in Bishkek
           and Osh, ololoAkJol co-working resort, ololoFamily art hotel on
           Issyk-Kul, John Galt business accelerator, Liberterra real estate
-          management company, ololoEvents event agency, ololoMedia digital
-          agency, WelcomeKG and ololo creative impact fund, which are aimed at
+          management company, OloloEvents agency, OloloMedia digital agency,
+          WelcomeKG and Ololo creative impact fund, which are aimed at
           developing female entrepreneurship and creative businesses.
         </p>
         <p>
           He is a member of Global Creative Economy Council, a co-founder and
           Supervisory Board member of KG Analytics think tank, and a co-founder
-          and Chairman of Kyrgyzstan&apos;s Creative Industries Association
+          and Chairman of Kyrgyzstan&apos;s Creative Industries Association.
         </p>
       </>
     ),
@@ -201,22 +207,14 @@ const speakers = [
     bioEN: (
       <>
         <p>
-          Master of Social Sciences, editor-in-chief of Factcheck.kz. Duman
-          Smakov studied at the Faculty of Journalism of Al-Farabi Kazakh
-          National University. Since 2015, he has been working at MediaNet
-          International Journalism Center. Since 2018, he has been the
-          editor-in-chief of Factcheck.kz. Duman fact-checking, methods of using
-          fact-checking in an information campaign, information security and the
-          role of fact-checking in it, open sources of information and their
-          reliability, the work of non-governmental organizations in Kazakhstan,
-          main priority in working with national languages, crisis
-          communication, effective management of non-governmental organizations,
-          against hate speech directed at minority groups deals with the study
-          of such topics as accommodation, peculiarities of information
-          monitoring in national languages, journalistic and media education,
-          media and information literacy, peculiarities of information
-          distribution in national languages, repressive methods in national
-          laws and information campaigns against them.
+          Duman is the editor-in-chief of Factcheck.kz. He studied at the
+          Faculty of Journalism of Al-Farabi Kazakh National University. Since
+          2015, he has been working at MediaNet International Journalism Center.
+          His areas of expertise include open sources of information and their
+          reliability, the work of non-governmental organisations in Kazakhstan,
+          working with national languages, crisis communication, effective
+          management of non-governmental organisations, fighting hate speech
+          directed at minority groups, and media and information literacy.
         </p>
       </>
     ),
@@ -245,58 +243,43 @@ const speakers = [
     langSwitch: 'Қазақша нұсқасы',
     rtl: false,
   },
-  {
-    name: 'Ainur Zarintac',
-    bioEN: (
-      <p>
-        Aynur Zarrintac is the founder of Ritual Mobile Theater Laboratory,
-        theater director, actress and curator of cultural events. In 2021-2022,
-        She obtained master&apos;s degree in Theater Directing at the University
-        of York, England. she is a graduate of the United Kingdom&apos;s
-        Chevening scholarship, also the internship of the Ministry of Foreign
-        Affairs of the Federal Republic of Germany, and the US government&apos;s
-        International Volunteer Leaders program. She has been working as a
-        trainer-director for 5 years in the field of basic education and theater
-        in Azerbaijan. In England, she presented her diploma thesis with a
-        documentary play called &quot;Mimmy&quot; based on her personal
-        experiences in the First and Second Karabakh War and children&apos;s
-        diaries about the Bosnian War. Additionally, she is the director of
-        social plays &quot;Gender Mirror&quot;, which talks about social
-        problems, &quot;Be with us!&quot;, which is dedicated to the topic of
-        inclusive society. She is also the co-director of the VR Shadow play
-        titled &quot;The Adventures of Jonathan, the Turtoise&quot;.
-      </p>
-    ),
-    bioORIGINAL: (
-      <p>
-        Aynur Zərrintac - Ritual Mobil Teatr Laboratoriyasının təsisçisi, teatr
-        rejissoru, aktrisa və mədəniyyət üzrə tədbirlər kuratorudur. O,
-        2021-2022-ci illərdə İngiltərənin York Universitetində Teatr
-        Rejissorluğu ixtisası üzrə magistr təhsili almışdır. Birləşmiş Krallığın
-        Chevening təqaüdü, Almaniya Federativ Respublikasının Xarici İşlər
-        Nazirliyinin təcrübə və ABŞ hökümətinin Beynəlxalq Könüllü Liderlər
-        proqramlarının məzunudur. Azərbaycanda əsas təhsil və teatr sahəsində 5
-        ildir ki, təlimçi-rejissor kimi fəaliyyət göstərir. İngiltərədə I və II
-        Qarabağ Müharibəsindəki şəxsi təcrübələri və Bosniya müharibəsindən bəhs
-        edən uşaq gündəlikləri əsasında hazırladığı &quot;Mimi&quot; adlı
-        sənədli tamaşa ilə diplom işini təqdim etmişdir. Bundan başqa o, sosial
-        problemlərdən bəhs edən &quot;Gender Güzgüsü&quot;, inklüziv cəmiyyət
-        mövzusuna həsr edilmiş &quot;Bizimlə ol!&quot; sosial tamaşaların
-        rejissoru, &quot;Tısbağa Conatanın Macərası&quot; adlı VR Kölgə
-        tamaşasının həm-rejissorudur.
-      </p>
-    ),
-    image: '/speakers/blank.jpeg',
-    langSwitch: 'Azərbaycan versiyası',
-    rtl: false,
-  },
+  // {
+  //   name: 'Ainur Zarintac',
+  //   bioEN: (
+  //     <p>
+  //       Aynur is the founder of Ritual Mobile Theatre Laboratory, as well as a director, actress and cultural events curator. In 2022, She obtained a master's degree in Theatre Directing at the University of York, England.  Her master's diploma thesis was a play called "Mimmy" based on her personal experiences in the First and Second Karabakh Wars and children's diaries about the Bosnian War. Additionally,  she is the director of the plays   "Gender Mirror", which deals with  social problems, and "Be with us!", which is dedicated to the topic of inclusive society. She is also the co-director of the VR Shadow play titled "The Adventures of Jonathan, the Turtoise".  She has been working for the last five years in theatre education in Azerbaijan.
+  //     </p>
+  //   ),
+  //   bioORIGINAL: (
+  //     <p>
+  //       Aynur Zərrintac - Ritual Mobil Teatr Laboratoriyasının təsisçisi, teatr
+  //       rejissoru, aktrisa və mədəniyyət üzrə tədbirlər kuratorudur. O,
+  //       2021-2022-ci illərdə İngiltərənin York Universitetində Teatr
+  //       Rejissorluğu ixtisası üzrə magistr təhsili almışdır. Birləşmiş Krallığın
+  //       Chevening təqaüdü, Almaniya Federativ Respublikasının Xarici İşlər
+  //       Nazirliyinin təcrübə və ABŞ hökümətinin Beynəlxalq Könüllü Liderlər
+  //       proqramlarının məzunudur. Azərbaycanda əsas təhsil və teatr sahəsində 5
+  //       ildir ki, təlimçi-rejissor kimi fəaliyyət göstərir. İngiltərədə I və II
+  //       Qarabağ Müharibəsindəki şəxsi təcrübələri və Bosniya müharibəsindən bəhs
+  //       edən uşaq gündəlikləri əsasında hazırladığı &quot;Mimi&quot; adlı
+  //       sənədli tamaşa ilə diplom işini təqdim etmişdir. Bundan başqa o, sosial
+  //       problemlərdən bəhs edən &quot;Gender Güzgüsü&quot;, inklüziv cəmiyyət
+  //       mövzusuna həsr edilmiş &quot;Bizimlə ol!&quot; sosial tamaşaların
+  //       rejissoru, &quot;Tısbağa Conatanın Macərası&quot; adlı VR Kölgə
+  //       tamaşasının həm-rejissorudur.
+  //     </p>
+  //   ),
+  //   image: '/speakers/blank.jpeg',
+  //   langSwitch: 'Azərbaycan versiyası',
+  //   rtl: false,
+  // },
   {
     name: 'Aisana Ashim',
     bioEN: (
       <p>
-        Journalist, Media Entrepreneur, Civic and Feminism Activist. Founder of
-        three independent media in Kazakhstan: The Village Kazakhstan, MASA
-        Media, Batyr Jamal.
+        Aisana is a journalist, media entrepreneur, and a civic and feminism
+        activist. She is the founder of three independent media outlets in
+        Kazakhstan: The Village Kazakhstan, MASA Media, and Batyr Jamal.
       </p>
     ),
     bioORIGINAL: (
@@ -315,20 +298,18 @@ const speakers = [
     bioEN: (
       <>
         <p>
-          Mariam Naiem, a Ukrainian of Afghan origin. She has a degree in
-          cultural studies, and speaks, teach, and write on topics of culture.
+          Mariam is a Ukrainian of Afghan origin. She has a degree in cultural
+          studies, and speaks, teaches, and write on topics of culture.
         </p>
         <p>
           Since the start of Russia&apos;s full-scale invasion of Ukraine, she
-          has been trying to make the broad English-speaking community
-          understand the cultural context of the Russian war in Ukraine. In
-          particular, she aims to bring understanding of the colonial and racial
-          aspects and practices of Russian culture with respect to Ukraine and
-          other peoples colonized by Russia. She also works on decolonizing the
-          discourse on Ukraine in order to center Ukrainian voices and de-center
+          has been working to educate the English-speaking world on the cultral
+          context of the war. In particular, she aims to bring understanding of
+          Russian colonialism and cultural repression inflicted on Ukraine and
+          Russia&apos;s other neighbors. She also works on decolonising the
+          discourse on Ukraine in order to centre Ukrainian voices and debunk
           Russian and pro-Russian imperialist narratives. She aims to be a
-          bridge between English-speaking audiences and Ukrainians due to my
-          personal experiences with Ukrainian and Western cultures.
+          bridge between English-speaking audiences and Ukrainians.
         </p>
       </>
     ),
@@ -359,8 +340,8 @@ const speakers = [
     bioEN: (
       <p>
         Temirtas is an architect, researcher, cultural activist and curator from
-        Astana. The founder of the Fading.TSE research platform, he works with
-        urban communities in Kazakhstan to implement educational and civic
+        Astana. As the founder of the Fading.TSE research platform, he works
+        with urban communities in Kazakhstan to implement educational and civic
         initiatives related to cultural heritage, visual identity, historical
         memory, and the right to the city.
       </p>
@@ -472,7 +453,7 @@ export function Speakers() {
       <section
         id="speakers"
         aria-labelledby="Speakers"
-        className="bg-white py-20 sm:py-32"
+        className="bg-white py-20"
       >
         <Container>
           <div className="mx-auto max-w-2xl lg:mx-0">

@@ -111,7 +111,7 @@ export function Grants() {
 
             <div className="mt-8 flex flex-col items-center justify-center gap-8 lg:flex-row lg:justify-start">
               <Button href="https://docs.google.com/forms/d/e/1FAIpQLScFhvgWvccPhezwteI33EVsPggVCPIEWRLcZpRJs-rOhGBqLg/viewform?usp=sf_link">
-                Sign-up for Financial support
+                Registration
               </Button>
             </div>
           </div>

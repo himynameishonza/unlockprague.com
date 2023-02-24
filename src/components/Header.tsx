@@ -20,7 +20,7 @@ export function Header() {
     <header className="absolute right-0 left-0 top-0 isolate z-40 pb-4">
       <Container className="mt-2 flex flex-col flex-wrap items-center justify-center sm:flex-row sm:justify-between  lg:mt-10">
         <div className="mt-8 lg:mt-0 lg:grow lg:basis-0">
-          <Logo className="h-8 w-auto" />
+          <Logo className="h-10 w-auto" />
         </div>
         <div className="order-first -mx-4 flex flex-auto basis-full overflow-x-auto whitespace-nowrap border-b border-blue-600/10 py-4 font-mono text-sm text-rose-600 sm:-mx-6 lg:order-none lg:mx-0 lg:basis-auto lg:border-0 lg:py-0">
           <div className="mx-auto flex flex-wrap items-center justify-center gap-2 px-4">
