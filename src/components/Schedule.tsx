@@ -234,12 +234,13 @@ export function Schedule() {
                   format that won`&apos;t leave anyone indifferent to your
                   cause.
                 </p>
+
                 <p className="mt-3 mb-2 font-bold">
                   Sounds good but need some help?
                 </p>
                 <p className="font-normal">
                   Don&apos;t worry, Unlock will be full of experts ready to
-                  guide you and provide with necessary equipment.
+                  guide you and provide the necessary equipment.
                 </p>
                 <p className="mt-3 font-bold">
                   Sign up in the application form.
