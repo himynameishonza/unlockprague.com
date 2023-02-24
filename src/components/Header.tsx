@@ -45,7 +45,10 @@ export function Header() {
               icon={<FaTelegramPlane />}
             />
           </div>
-          <Button href="#" className="hidden  sm:flex">
+          <Button
+            href="https://docs.google.com/forms/d/e/1FAIpQLScFhvgWvccPhezwteI33EVsPggVCPIEWRLcZpRJs-rOhGBqLg/viewform"
+            className="hidden  sm:flex"
+          >
             Registration
           </Button>
         </div>

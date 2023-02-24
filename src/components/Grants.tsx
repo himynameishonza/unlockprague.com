@@ -96,31 +96,23 @@ export function Grants() {
       </Transition>
 
       <section id="partnership-grants" aria-label="Partnership grants">
-        <Container className="relative z-10">
+        <Container className="relative z-10 pt-16">
           <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-4xl">
             <h2 className="bg-gradient-to-b from-[#FF00A2] to-[#FF0000] bg-clip-text font-display text-4xl font-medium tracking-tighter text-transparent sm:text-5xl">
-              Unlock 2023 Partnership Travel Grants
+              Financial support
             </h2>
             <p className="mt-4 font-display text-xl tracking-tight text-slate-200 lg:text-2xl">
-              Have you participated in a workshop or event hosted by the Prague
-              Civil Society Centre? Did you meet a person or an organisation
-              there whom you went on to work with, co-operate with, hire, or
-              launch a new project with?
+              Good news! We are able to cover the costs of attending Unlock for
+              a limited number of attendees (flights, visas, accommodation).
+              Need some help to cover the costs? Indicate it in the application
+              form in section III. If you are eligible we will contact you
+              individually.
             </p>
-            <p className="mt-4 font-display text-xl tracking-tight text-slate-200 lg:text-2xl">
-              If so, you could win a partnership travel grant to Unlock 2020,
-              taking place in Prague the 25-26 May 2023. Unlock is our civic
-              innovation summit, showcasing the best and brightest ideas in the
-              world of civic tech from across Eastern Europe and Central Asia.
-            </p>
+
             <div className="mt-8 flex flex-col items-center justify-center gap-8 lg:flex-row lg:justify-start">
-              <a
-                onClick={() => setIsOpen(true)}
-                className="cursor-pointer p-2 text-white underline transition-all hover:text-rose-400"
-              >
-                Conditions of grant
-              </a>
-              <Button href="#">Sign-up for Partnership Grant</Button>
+              <Button href="https://docs.google.com/forms/d/e/1FAIpQLScFhvgWvccPhezwteI33EVsPggVCPIEWRLcZpRJs-rOhGBqLg/viewform?usp=sf_link">
+                Sign-up for Financial support
+              </Button>
             </div>
           </div>
         </Container>

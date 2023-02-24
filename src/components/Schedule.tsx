@@ -1,8 +1,7 @@
-import { useEffect, useState } from 'react'
-import { Tab } from '@headlessui/react'
 import clsx from 'clsx'
 
 import { Container } from '@/components/Container'
+import { DiamondIcon } from './DiamondIcon'
 
 const schedule = [
   {
@@ -107,6 +106,17 @@ const schedule = [
   },
 ]
 
+const tempShedule = [
+  'Decolonising perspectives: how language helps shape collective and individual identity',
+  'Сreative ways to fight corruption',
+  'Energising and engaging your volunteers: lessons from Ukraine ',
+  'Being an activist in times of war',
+  'Integrating technology into your work',
+  'Solutions journalism powered by AI',
+  'Crypto fundraising in authoritarian countries',
+  'Digitalisation of art space to promote civic values',
+]
+
 function DaySummary({ day }) {
   return (
     <>
@@ -187,9 +197,8 @@ export function Schedule() {
             Schedule
           </h2>
           <p className="mt-4 font-display text-2xl tracking-tight text-slate-600">
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean id
-            metus id velit ullamcorper pulvinar. In rutrum. Pellentesque ipsum.
-            Quisque tincidunt scelerisque libero.
+            The full programme is coming soon. In the meantime, here are some
+            example topics we’re working on:
           </p>
         </div>
       </Container>
@@ -200,98 +209,48 @@ export function Schedule() {
           <div className="absolute inset-x-0 bottom-0 h-40 bg-gradient-to-t from-white" />
         </div>
 
-        {/* <Container className="relative flex max-w-7xl flex-row flex-wrap items-center justify-center gap-8">
-          <p className="text-xl font-bold leading-7">
-            Lorem ipsum dolor sit amet
-          </p>
-          <div className="h-4 w-4 rounded-full bg-red-500" />
-          <p className="text-xl font-bold leading-7">
-            Consectetur adipisicing elit
-          </p>
-          <div className="h-4 w-4 rounded-full bg-red-500" />
-          <p className="text-xl  font-bold leading-7">
-            Rrerum veritatis alias ad maiores fuga.
-          </p>
-        </Container> */}
-
-        <Container className="relative grid max-w-7xl items-center justify-center gap-8 lg:grid-cols-3">
-          <div className="max-w-md self-start bg-white p-6 shadow-xl shadow-slate-300/30 ">
-            <h2 className="bg-gradient-to-b from-[#FF00A2] to-red-600 bg-clip-text text-xl font-bold text-transparent ">
-              Topic 1
-            </h2>
-            <p className="font-regular text-lg leading-7">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
-              quibusdam aspernatur, rerum veritatis alias ad maiores fuga.
-            </p>
-          </div>
-          <div className="max-w-md bg-white p-6 shadow-xl shadow-slate-300/30 ">
-            <h2 className="bg-gradient-to-b from-[#FF00A2] to-red-600 bg-clip-text text-xl font-bold text-transparent ">
-              Topic 2
-            </h2>
-            <p className="font-regular text-lg leading-7">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
-              quibusdam aspernatur, rerum veritatis alias ad maiores fuga.
-            </p>
-          </div>
-          <div className="max-w-md bg-white p-6 shadow-xl shadow-slate-300/30 ">
-            <h2 className="bg-gradient-to-b from-[#FF00A2] to-red-600 bg-clip-text text-xl font-bold text-transparent">
-              Topic 3
-            </h2>
-            <p className="font-regular text-lg leading-7">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
-              quibusdam aspernatur, rerum veritatis alias ad maiores fuga.
-            </p>
-          </div>
+        <Container className="relative sm:max-w-2xl lg:max-w-7xl">
+          <ul className="max-w-2xl list-outside list-disc px-4">
+            {tempShedule.map((item, i) => {
+              return (
+                <li
+                  className="py-5 text-lg font-bold text-rose-500 sm:text-xl"
+                  key={i}
+                >
+                  {item}
+                </li>
+              )
+            })}
+            <li className="py-5 text-lg font-bold text-rose-500 sm:text-xl">
+              Mediathon{' '}
+              <span className="ml-2 text-base font-normal text-slate-500">
+                For creative minds...
+              </span>
+              <div className="text-base text-black">
+                <p className="font-normal">
+                  Take part in our content creation challenge. Work in teams to
+                  produce captivating videos, inspiring podcasts,
+                  thought-provoking digital artwork or any other innovative
+                  format that won`&apos;t leave anyone indifferent to your
+                  cause.
+                </p>
+                <p className="mt-3 mb-2 font-bold">
+                  Sounds good but need some help?
+                </p>
+                <p className="font-normal">
+                  Don&apos;t worry, Unlock will be full of experts ready to
+                  guide you and provide with necessary equipment.
+                </p>
+                <p className="mt-3 font-bold">
+                  Sign up in the application form.
+                </p>
+              </div>
+            </li>
+          </ul>
         </Container>
 
         {/* <Container className="relative max-w-5xl">
           <ScheduleStatic />
-
-          <div className="mt-16">
-            <h3 className="text-2xl font-semibold tracking-tight text-rose-500">
-              Accompanying program
-            </h3>
-            <p className="mt-1.5 max-w-xl text-base tracking-tight text-slate-800">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia
-              voluptatibus quo, ut distinctio ad harum deleniti quidem molestias
-              optio ex perferendis, dolorum ullam rerum consectetur sit dolores,
-              iusto enim velit.
-            </p>
-
-            <div className="grid gap-8 md:grid-cols-2">
-              <section className="mt-8 space-y-8 bg-white/90 py-14 px-10 text-center shadow-xl shadow-rose-900/5 backdrop-blur">
-                <h4 className="text-lg font-semibold tracking-tight text-slate-900">
-                  Mediathon
-                </h4>
-
-                <p className="mt-1 tracking-tight text-slate-400">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero
-                  sapiente, quod provident maiores laudantium nihil molestiae
-                  vel velit pariatur aut nobis ad ipsa necessitatibus ipsum
-                  magnam dolorem! Illum, at blanditiis.
-                </p>
-                <p className="mt-1 font-mono text-sm text-slate-500">
-                  Info about time and place
-                </p>
-              </section>
-
-              <section className="mt-8 space-y-8 bg-white/90 py-14 px-10 text-center shadow-xl shadow-rose-900/5 backdrop-blur">
-                <h4 className="text-lg font-semibold tracking-tight text-slate-900">
-                  Artivism
-                </h4>
-
-                <p className="mt-1 tracking-tight text-slate-400">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero
-                  sapiente, quod provident maiores laudantium nihil molestiae
-                  vel velit pariatur aut nobis ad ipsa necessitatibus ipsum
-                  magnam dolorem! Illum, at blanditiis.
-                </p>
-                <p className="mt-1 font-mono text-sm text-slate-500">
-                  Info about time and place
-                </p>
-              </section>
-            </div>
-          </div>
         </Container> */}
       </div>
     </section>

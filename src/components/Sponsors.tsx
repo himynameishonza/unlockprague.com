@@ -44,7 +44,7 @@ export function Sponsors() {
         </div>
       </Container>
 
-      <Container className="space-y-10">
+      {/* <Container className="space-y-10">
         <h2 className="mx-auto max-w-2xl text-center font-display text-lg font-bold tracking-tighter text-slate-500">
           Media partnership
         </h2>
@@ -58,7 +58,7 @@ export function Sponsors() {
             </div>
           ))}
         </div>
-      </Container>
+      </Container> */}
     </section>
   )
 }

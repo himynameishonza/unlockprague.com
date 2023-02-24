@@ -6,6 +6,7 @@ import { Hero } from '@/components/Hero'
 import { Schedule } from '@/components/Schedule'
 import { Speakers } from '@/components/Speakers'
 import { Sponsors } from '@/components/Sponsors'
+import { WhoIsItFor } from '@/components/WhoIsItFor'
 import classnames from 'classnames'
 import Head from 'next/head'
 import { useEffect, useState } from 'react'
@@ -37,10 +38,24 @@ export default function Home() {
 
         <meta
           name="description"
-          content="Unlock is a civic tech summit showcasing cutting-edge campaigns and featuring expert masterclasses that'll reboot your mindset and inspire you to upgrade your civic projects."
+          content="Unlock is a civic summit showcasing the latest trends at the nexus of activism, media and technology in Eastern Europe and Central Asia. It all happens in Prague May 25-26, 2023."
         />
         <meta name="pinterest" content="nopin" />
-        <meta name="robots" content="noindex, nofollow" />
+        <meta name="robots" content="all" />
+        <meta property="og:title" content="Unlock 2023" />
+        <meta
+          property="og:description"
+          content="Unlock is a civic summit showcasing the latest trends at the nexus of activism, media and technology in Eastern Europe and Central Asia. It all happens in Prague May 25-26, 2023."
+        />
+        <meta property="og:url" content="https://www.unlockprague.com" />
+        <meta property="og:image" content="/og.jpg" />
+        <meta name="twitter:title" content="Unlock 2023" />
+        <meta
+          name="twitter:description"
+          content="Unlock is a civic summit showcasing the latest trends at the nexus of activism, media and technology in Eastern Europe and Central Asia. It all happens in Prague May 25-26, 2023."
+        />
+        <meta name="twitter:image" content=" og.jpg" />
+        <meta name="twitter:card" content="summary_large_image" />
         <link
           rel="preconnect"
           href="https://fonts.gstatic.com"
@@ -85,6 +100,7 @@ export default function Home() {
       <main>
         <Hero />
 
+        <WhoIsItFor />
         <Schedule />
         <Speakers />
 
@@ -92,7 +108,7 @@ export default function Home() {
 
         <div className="space-y-16 bg-gradient-to-tl from-slate-800 to-black pt-20 lg:pt-24">
           <Sponsors />
-          {/* <Grants /> */}
+          <Grants />
           <Footer />
           <div className="fixed bottom-6 right-6">
             <a
