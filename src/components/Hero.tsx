@@ -46,7 +46,7 @@ export function Hero() {
               ['Speakers', '30+'],
               ['People attending', '200+'],
               ['Location', 'Prague, CZE'],
-              ['Date', 'May 23–⁠25, 2023'],
+              ['Date', 'May 25–⁠26, 2023'],
             ].map(([name, value]) => (
               <div key={name}>
                 <dt className="font-mono text-base text-slate-600 sm:text-lg">

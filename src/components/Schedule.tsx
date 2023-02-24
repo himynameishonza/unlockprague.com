@@ -231,8 +231,7 @@ export function Schedule() {
                   Take part in our content creation challenge. Work in teams to
                   produce captivating videos, inspiring podcasts,
                   thought-provoking digital artwork or any other innovative
-                  format that won`&apos;t leave anyone indifferent to your
-                  cause.
+                  format that won&apos;t leave anyone indifferent to your cause.
                 </p>
 
                 <p className="mt-4 mb-2 font-bold">

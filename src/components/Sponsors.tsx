@@ -14,7 +14,7 @@ export function Sponsors() {
     <section id="sponsors" aria-label="Sponsors" className="space-y-20">
       <Container className="space-y-10">
         <h2 className="mx-auto max-w-2xl text-center font-display text-lg font-bold tracking-tighter text-slate-500">
-          Organizer
+          Organiser
         </h2>
         <div className="mx-auto max-w-max">
           <div className="flex items-center justify-center">

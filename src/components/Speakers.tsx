@@ -41,28 +41,30 @@ const speakers = [
     bioEN: (
       <>
         <p>
-          Nata is a journalist from Moldova well known for her work as a
-          television producer, event organizer and content creator with a civic
-          focus.
+          Nata Albot is a journalist from Moldova, well-known for her activity
+          as a TV producer, event organizer and content-creator with a prominent
+          civic voice; Since 2013, she&apos;s been the head of Klumea - an NGO
+          that works closely on preserving the cultural patrimony and supporting
+          local producers and artisans; For ten years already, Klumea team has
+          been organizing the biggest summer festivals in Moldova: IA Mania
+          festival and Hodina Fest.
         </p>
         <p>
-          Since 2013, Nata has lead Klumea, an NGO focused on cultural projects
-          that aim to save cultural heritage and support local producers. Among
-          these projects are some of the biggest festivals in Moldova, IA MANIA
-          festival & HODINA FEST.
-        </p>
-        <p>
-          Through a series of media projects, Klumea promotes media literacy and
-          civic activism. In the weekly Internetu Grăiește podcast, her team
-          informs, denounces fakes and explains how Russian propaganda works.
-        </p>
-        <p>
-          Nata is the author of two cookbooks dedicated to the gastronomic
-          traditions of Moldova. One of her books was awarded at the Gourmand
-          World Cookbook Award. She also runs a communication and marketing
-          agency which works especially with small and medium-sized businesses.
-          Nata is the co-owner of From The Heart Shop, an online gift shop that
-          promotes small producers from Moldova.
+          Klumea is also involved in media projects promoting media literacy and
+          civic activism. As part of the popular weekly podcast Internetu
+          Grăiește (&quot;The Internet is talking&quot;/&quot;What&apos;s
+          discussed on the internet&quot;), her team provides trustworthy
+          information and opinions, debunks fake news and explains how
+          propaganda works. Nata Albot is the author of two culinary books on
+          gastronomic traditions from Moldova, one of which received the
+          Gourmand World Cookbook Award. Simultaneously, Nata runs a
+          Communication and Marketing agency focused on working especially with
+          small and medium enterprises. Also, Nata is the co-owner of From The
+          Heart Shop -{' '}
+          <a href="https://www.fth.md" className="text-blue-500 underline">
+            www.fth.md
+          </a>{' '}
+          - the largest gift shop from small producers in Moldova.
         </p>
       </>
     ),
@@ -88,8 +90,10 @@ const speakers = [
           Gourmand World Cookbook Award. În paralel, conduce cu o agenție de
           Comunicare și Marketing, care lucrează în special cu afacerile mici și
           mijlocii. De asemenea, Nata este co-proprietara From The Heart Shop
-          www.fth.md - cel mai mare magazin de cadouri de la micii producători
-          din Moldova.
+          <a href="https://www.fth.md" className="text-blue-500 underline">
+            www.fth.md
+          </a>{' '}
+          - cel mai mare magazin de cadouri de la micii producători din Moldova.
         </p>
       </>
     ),
