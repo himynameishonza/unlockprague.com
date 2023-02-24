@@ -406,7 +406,7 @@ export function Speakers() {
   return (
     <>
       <Transition appear show={detailOpened} as={Fragment}>
-        <Dialog as="div" className="relative z-10" onClose={closeBio}>
+        <Dialog as="div" className="relative z-[999]" onClose={closeBio}>
           <Transition.Child
             as={Fragment}
             enter="ease-out duration-300"
