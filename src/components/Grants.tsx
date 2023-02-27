@@ -103,9 +103,9 @@ export function Grants() {
             </h2>
             <p className="mt-4 font-display text-xl tracking-tight text-slate-200 lg:text-2xl">
               Good news! We are able to cover the costs of attending Unlock for
-              a limited number of attendees (flights, visas, accommodation).
-              Need some help to cover the costs? Indicate it in the application
-              form in section III. If you are eligible we will contact you
+              a limited number of attendees (flights, accommodation, etc.). Need
+              some help to cover the costs? Indicate it in the application form
+              in section III. If you are eligible we will contact you
               individually.
             </p>
 
