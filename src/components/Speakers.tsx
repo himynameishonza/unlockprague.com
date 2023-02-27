@@ -340,7 +340,7 @@ const speakers = [
     rtl: false,
   },
   {
-    name: 'Timur Temirtas',
+    name: 'Temirtas Iskakov',
     bioEN: (
       <p>
         Temirtas is an architect, researcher, cultural activist and curator from
