@@ -89,7 +89,7 @@ const speakers = [
           gastronomice din Moldova. Una din cărțile sale a fost premiată la
           Gourmand World Cookbook Award. În paralel, conduce cu o agenție de
           Comunicare și Marketing, care lucrează în special cu afacerile mici și
-          mijlocii. De asemenea, Nata este co-proprietara From The Heart Shop
+          mijlocii. De asemenea, Nata este co-proprietara From The Heart Shop{' '}
           <a href="https://www.fth.md" className="text-blue-500 underline">
             www.fth.md
           </a>{' '}
@@ -129,8 +129,8 @@ const speakers = [
       <>
         <p>
           Emma is a Ukrainian blogger, promoter of reading, and the producer of
-          the YouTube channel &quotNo One Will Watch This&quot, where she hosts
-          hard talk interviews.
+          the YouTube channel &quot;No One Will Watch This&quot;, where she
+          hosts hard talk interviews.
         </p>
         <p>
           She is also co-producer of the YouTube channel &quot;Palaye&quot;. In
@@ -307,7 +307,7 @@ const speakers = [
         </p>
         <p>
           Since the start of Russia&apos;s full-scale invasion of Ukraine, she
-          has been working to educate the English-speaking world on the cultral
+          has been working to educate the English-speaking world on the cultural
           context of the war. In particular, she aims to bring understanding of
           Russian colonialism and cultural repression inflicted on Ukraine and
           Russia&apos;s other neighbors. She also works on decolonising the
