@@ -89,7 +89,7 @@ const speakers = [
           gastronomice din Moldova. Una din cărțile sale a fost premiată la
           Gourmand World Cookbook Award. În paralel, conduce cu o agenție de
           Comunicare și Marketing, care lucrează în special cu afacerile mici și
-          mijlocii. De asemenea, Nata este co-proprietara From The Heart Shop{' '}
+          mijlocii. De asemenea, Nata este co-proprietara From The Heart Shop -{' '}
           <a href="https://www.fth.md" className="text-blue-500 underline">
             www.fth.md
           </a>{' '}
